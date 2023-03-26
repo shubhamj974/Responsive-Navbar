@@ -1,0 +1,24 @@
+
+
+.header .navbar-nav>li>a {
+    color: #fff;
+    font-size: 18px;
+    margin-left:10px;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.header .navbar-brand img {
+    height: 100%;
+}
+
+.header .navbar-brand {
+    padding: 10px;
+}
+
+.header .navbar-nav>li>a:focus, .header .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: orange;
+    border-radius: 5px;
+}
